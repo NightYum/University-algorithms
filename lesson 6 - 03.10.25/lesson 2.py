@@ -1,0 +1,5 @@
+string = input("Enter a string: ")
+count_a = str(string.count('a'))
+count_e = str(string.count('e'))
+count_i = str(string.count('i'))
+print("a:" + count_a, "e:" + count_e, "i:" + count_i, sep="\n")

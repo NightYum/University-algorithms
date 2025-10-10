@@ -5,5 +5,6 @@ for i in range(0, 10):
     for j in number:
         if i == int(j):
             count += 1
-    print(i, count)
+    if count != 0:
+        print(i, count)
     count = 0

@@ -7,7 +7,7 @@ for symbol in text:
     if symbol != " ":
         count_symbol += 1
     if symbol == " ":
-       11 count_phrase += 1
+        count_phrase += 1
         count_symbol = 0
 
     if count_symbol == 4:
